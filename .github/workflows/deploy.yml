@@ -18,9 +18,9 @@ jobs:
       - name: crear carpeta en el servidor
         uses: appleboy/scp-action@v1
         with:
-          host: ${{secrets.IP_PUBLICA}}
-          username: ${{secrets.USERNAME}}
-          key: ${{secrets.KEY}}
+          host: ${{ secrets.IP_PUBLICA }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
           source: .
           target: "/home/${{ secrets.USERNAME }}/proyecto1"
           overwrite: true
