@@ -21,7 +21,7 @@ jobs:
           host: ${{ secrets.IP_PUBLICA }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
-          source: .
+          source: "./*,./.env"
           target: "/home/${{ secrets.USERNAME }}/proyecto1"
           overwrite: true
 
