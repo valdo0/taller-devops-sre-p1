@@ -1,7 +1,7 @@
 {
-  "name": "Tu Nombre Aquí",
-  "role": "Futuro/a DevOps Engineer",
-  "city": "Valparaíso, Chile",
+  "name": "Sebastián Valdivia",
+  "role": "Ingeniero Devops Proximo SRE",
+  "city": "Santiago de Chile",
   "github": "tu-usuario",
   "favorite_tool": "Docker",
   "message": "Este es mi primer despliegue automatizado. ¡Hola, producción!",
